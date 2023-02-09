@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif; */
 *{
     padding: 0;
     margin: 0;
@@ -59,7 +61,7 @@ a{
 }
 .text_lamda{ 
     font-size: 130px;
-    transform: rotate(-90deg) translate(160px, 223px) ;
+    transform: rotate(-90deg) translate(70px, 127px) ;
     font-weight: 600;
 }
 .img-header{
@@ -76,5 +78,34 @@ a{
     transform: translate(-178px, -700px);
 }
 .photo2{
-    transform: translate(285px, -400px);
+    transform: translateY(-400px);
+    margin-left: 300px;
+}
+.siv_main_cont{
+    height: 800px;
+}
+.header_div{
+    color: #D2564F;
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+}
+.main_first_pages{
+    width: 80%;
+    margin: auto;
+}
+span{
+    color: black;
+}
+.header-h{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.short_text{
+    width: 380px;   
+    font-size: 13px;
+    margin-top: 40px;
+}
+.main-fol{
+    display: flex;
 }
