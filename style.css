@@ -59,18 +59,22 @@ a{
 }
 .text_lamda{ 
     font-size: 130px;
-    transform: rotate(-90deg) translate(120px, 193px) ;
+    transform: rotate(-90deg) translate(160px, 223px) ;
     font-weight: 600;
 }
 .img-header{
     width: 960px;
+    height: 700px;
     transform: translate(-180px);
 }
 .text_photo{
-    color: black;
+    color: #E9E9DB;
     font-size: 120px;
     font-weight: 800;
 }
 .photo{
-    transform: translateY(200px);
+    transform: translate(-178px, -700px);
+}
+.photo2{
+    transform: translate(285px, -400px);
 }
