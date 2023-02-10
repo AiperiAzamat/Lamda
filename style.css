@@ -107,5 +107,65 @@ span{
     margin-top: 40px;
 }
 .main-fol{
+    width: 80%;
     display: flex;
+    justify-content: space-between;
 }
+.first_image{
+    margin-top: 100px;
+    position: absolute;
+    z-index: 5;
+}
+.second_image{
+    position: absolute;
+    z-index: 1; 
+}
+.img{
+    margin-left: -200px;
+}
+.gallery{
+    background-color: #2C2D26;
+    color: #E9E9DB;
+    margin-top: 150px;
+}
+.bac_text{
+    font-size: 214px;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    color: #e9e9db17;
+    font-family: 'Playfair Display', serif;
+}
+.main_text_gallary{
+    font-size: 100px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    transform: translateY(-200px);
+}
+.card_gallary{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.cont_gallary{
+
+    width: 300px;
+    font-size: 13px;
+}
+.display_text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.text_header_gall{
+    margin-top: 10px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.lorem_gall{
+    font-weight: 500;
+    line-height: 1.4;
+}
+ 
