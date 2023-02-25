@@ -277,3 +277,8 @@ footer{
 .div_name{
     font-size: 90px;
 }
+@media (max-width: 1000px){
+    ul{
+        flex-direction: column;
+    }
+}
